@@ -1,0 +1,28 @@
+# To manually install the yml run: conda env create -f environment.yml
+# You might need to install gcc: brew install gcc
+name: Stardist_GUI
+channels:
+    - conda-forge
+dependencies:
+    - pip
+    - pyopencl
+    - python=3.9
+    - tensorflow=2.9.1
+    - tensorboard=2.9.0
+    - pyqt=5.15.7
+    - pyqtwebengine=5.15.7
+    - pip:
+        - csbdeep==0.7.2
+        - gputools==0.2.13
+        - stardist==0.8.3
+        - pyradiomics==3.0.1
+        - connected-components-3d==3.10.2
+        - tifffile
+        - qimage2ndarray==1.9.0
+        - pyqtgraph==0.13.1
+        - superqt==0.4.1
+        - qtpy==2.3.0
+        - tqdm==4.64.0
+        - fastremap==1.13.3
+        - opencv-python-headless==4.6.0.66
+        - scipy==1.7.3
