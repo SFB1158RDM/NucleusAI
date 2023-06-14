@@ -58,7 +58,7 @@ class MainWindow(QMainWindow):
     singleton: 'MainWindow' = None
     def __init__(self, parent=None):
         super(MainWindow,self).__init__(parent)
-        loadUi("stardist_rad_copy.ui",self)
+        loadUi("stardist.ui",self)
         #4ade00: Green,  #009deb:Blue,   #f95300:Orange
         StyleSheet = """
             Window{background: #b8cdee;}
